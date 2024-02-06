@@ -35,11 +35,16 @@ p{
     color: #94a0b3;
     font-family: 'Trebuchet MS', Arial;
     padding-left: 10%;
+    padding-right: 10%;
 }
 img{
     display:flex;
     margin-left: auto;
     margin-right: auto;
+    max-width: 80%;
+}
+#div{
+    width: 80%;
 }
 #nav{
     background-color: #28364d;
@@ -53,14 +58,16 @@ img{
 #nav a{
     height: 50px;
     width: 90px;
-    display: grid;
+    display: flex;
     float:left;
-    align-items: center;
-    text-align:center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
     color: #94a0b3;
     text-decoration: none;
     font-family: 'Trebuchet MS', Arial;
     font-weight: bold;
+    
 }
 #nav a:hover{
     background-color: #4d5d75;
@@ -90,6 +97,8 @@ img{
     padding: 10px; 
     
 }
+
+
 @media all and (max-width: 1050px) {
   #cont { display: none; }
 }
