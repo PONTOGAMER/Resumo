@@ -58,7 +58,7 @@ img{
 }
 #nav a{
     height: 50px;
-    width: 90px;
+    width: 80px;
     display: flex;
     float:left;
     flex-direction: column;
