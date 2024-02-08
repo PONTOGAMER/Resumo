@@ -1,6 +1,9 @@
 body{
     background-color: #1f2938;
     margin: 0px;
+    color: #94a0b3;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: justify
 }
 a{
     color: darkslateblue;
@@ -42,27 +45,23 @@ img{
     display:flex;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
+    max-width: 80vw;
 }
-#div{
-    width: 80%;
+ul{
+    padding-left: 12%;
 }
 #nav{
     background-color: #28364d;
     height: 50px; 
-    margin-top: 0px;
-    float: top;
-    border: 0px;
     position: sticky;
-    top: 0px; 
+    overflow:auto;
+    white-space: nowrap;
 }
 #nav a{
-    height: 50px;
-    width: 80px;
-    display: flex;
-    float:left;
-    flex-direction: column;
-    justify-content: center;
+    width: 160px;
+    padding-top: 15.625px;
+    padding-bottom: 15.625px;
+    display: inline-block;
     text-align: center;
     color: #94a0b3;
     text-decoration: none;
@@ -74,7 +73,7 @@ img{
     background-color: #4d5d75;
 }
 #calen {
-    height: 500px;
+  
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -85,20 +84,32 @@ img{
     background: radial-gradient(#28364d,#1f2938 74%); ;
     width: 9%;
     height:100vh;
-    display:block;
-
+    text-align: left;
     position:fixed;
     
     top: 100px;
 }
 #cont h4{
-
-    color: #475d80;
+    color: #63728a;
     font-family: Arial;
-    padding: 10px; 
+    padding: 8px; 
     
 }
-
+#cont h3{
+    color: #94a0b3;
+    font-family: Arial;
+    padding: 8px; 
+    
+}
+#redoxFeCr2O7{
+    
+    height: 10vw;
+    max-height: 80px;
+}
+#redoxFeCr2O72{
+    height: 20vw;
+    max-height: 160px;
+}
 
 @media all and (max-width: 1050px) {
   #cont { display: none; }
