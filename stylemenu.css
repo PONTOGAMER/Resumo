@@ -34,6 +34,14 @@ h2{
     padding-left: 10%;
     font-size: 25px;
 }
+h3{
+    display:flex;
+
+    color: #697382;
+    font-family: Arial;
+    padding-left: 10%;
+    font-size: 15px;
+}
 p{
     color: #94a0b3;
     font-family: 'Trebuchet MS', Arial;
@@ -53,8 +61,9 @@ ul{
 #nav{
     background-color: #28364d;
     height: 50px; 
-    position: sticky;
-    overflow:auto;
+    position:sticky;
+    top: 0px;
+    overflow-x:auto;
     white-space: nowrap;
 }
 #nav a{
