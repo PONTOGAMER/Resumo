@@ -66,10 +66,12 @@ video{
     max-width: 80vw;
 }
 ul{
-    padding-left: 12%;
+    padding-left: 11%;
+    padding-right: 10%;
 }
 ol{
-    padding-left: 12%;
+    padding-left: 11%;
+    padding-right: 10%;
 }
 th, td {
   border: 2px solid #3c5072;
@@ -126,6 +128,9 @@ table {
     color: #63728a;
     font-family: Arial;
     padding: 8px; 
+    margin: 0px;
+}
+#cont a{
     
 }
 #cont h3{
@@ -144,6 +149,6 @@ table {
     max-height: 160px;
 }
 
-@media all and (max-width: 1050px) {
+@media all and (max-width: 1350px) {
   #cont { display: none; }
 }
